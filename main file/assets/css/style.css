@@ -1,25 +1,27 @@
-body {
+.top {
 	background-image: url("/home/tuittnight/Documents/franck-celestial/wd003/Capstone1/main file/assets/images/maxresdefault.jpg"	);
-	object-fit: cover;
-	height: 100%;
-	width: 100%;
+    background-size: cover;
+    height: 100vh;
 	background-repeat: no-repeat;
-
+	
 }	
 
 
 * {
-	font-family: arial;
+	font-family: 'Chivo', sans-serif;
 }
 
 
 
 
 .company {
-font-size: 20px;
-color: indianred;
+font-size: 20px;	
 text-decoration: italic;
+font-family: 'Playfair Display', serif;
+
 }
+
+
 
 
 .welcome {
@@ -27,29 +29,59 @@ text-decoration: italic;
 	font-size: 50px;
 	margin: 15px;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 50px;
 	color: white;
+	font-family: 'Playfair Display', serif;
 }
 
 .welcome2 {
 	margin: 20px;
 text-align: center;
-margin-bottom: 50px;
+margin-bottom: 5%;
 color: white;
 margin-left: 50px;
 margin-right:  50px;
 
 }
 
+.welcome3 {
+
+	font-size: 40px;
+	
+	text-align: center;
+	margin-top: 10%;
+	color: white;
+	font-family: 'Playfair Display', serif;
+	padding-left:10%;
+	padding-right:10%;
+}
+
 .button1 {
-	width:25%;
-	height: 45px;
-	border-radius: 50px;
-	font-size: 15px;
-	margin-top: 100px;
-	background-color: lightgreen;
+
+	background-color: #FF6347;
 	border-style: none;
-	font-weight: bold;
+	margin-left: auto;
+	margin-top: 3%;
+
+ 	
+} 
+
+.button13 {
+	text-align: center;
+padding-left:10%;
+	padding-right:10%;
+}
+
+.button2 {
+
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	margin-right: auto;
+	margin-top: 3%;
+
+
 }
 
 .steak {
@@ -58,24 +90,15 @@ margin-right:  50px;
 
 }
 
-.button2 {
 
-	width:25%;
-	height: 45px;
-	border-radius: 50px;
-	font-size: 15px;
-	margin-top: 50px;
-	background-color: white;
-	border-style: none;
-	color: green;
-	font-weight: bold;
-}
 
 hr {
  border-style: inset;
   border-width: 1px;
   width: 50%;
 }
+
+
 
 .p1 {
 	font-size: 20px;
@@ -88,4 +111,240 @@ hr {
 
 .taas {
 	margin-left: 20px
+}
+
+
+.carimg {
+	height: 500px;
+	width: 100%;
+	object-fit: contain;
+	display: block;
+	text-align: center;
+}
+
+
+/*Home*/
+.home {
+	font-family: 'Playfair Display', serif;
+	padding-top: 10%;
+	margin-bottom: 2%;	
+	color: #FF6347;
+}
+
+
+
+
+
+
+/*Menu*/
+
+
+.Menu {
+padding-left: 10%;
+padding-right: 10%;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+height: 100%;
+padding-bottom: 10%;
+}
+
+.card {
+	
+margin: 20px;
+border-style: none;
+border-radius: 20px;
+height: 80%;
+width: 80%;
+}
+
+.button3 {
+	background-color: #FF6347;
+	color: white;
+}
+
+
+.card-img-top {
+	 border-radius: 5px 20px 5px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 object-fit: contain;
+}
+
+.menuh {
+
+	font-family: 'Playfair Display', serif;
+	padding-top: 10%;
+	margin-bottom: 5%;	
+}
+
+.img5 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -20px;
+}
+
+
+
+/*Meet our Chef*/
+
+.chefimg {
+	height: 500px;
+	width: 100%;
+	object-fit: contain;	
+	padding-bottom: 10%;
+
+}
+
+.Our-Team {
+
+padding-left: 10%;
+padding-right: 10%;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+padding-bottom: 10%;
+}
+
+.Chefh2 {
+	padding-top: 10%;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 5%;
+}
+
+
+/*About us*/
+
+.aboutimg {
+	height: 500px;
+	width: 100%;	
+	object-fit: contain;
+	padding-bottom: 10%;
+
+
+}
+
+.About-us{
+	padding-left: 10%;
+	padding-right: 10%;
+	height: 100%;
+	
+
+}
+
+
+/*Contact us*/
+
+.Contact-us {
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #FF6347;
+}
+
+iframe {
+	width: 100%;
+	display: block;
+}
+
+
+.contact1 {
+	
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 3%;
+
+}
+
+.contact2 {
+	margin-top: 5%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 0;
+}
+
+.contact3 {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0;
+}
+
+
+
+ul {
+	list-style: none;
+
+}
+
+i {
+	
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+	color: white;
+}
+
+
+
+/*Parallax*/
+
+.parallax { 
+ 
+  background-image: url("https://images.pexels.com/photos/618775/pexels-photo-618775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+
+  height: 10rem; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ margin-top: 10%
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+
+
+/*media query*/
+
+@media screen and (max-width: 575.98px) {
+
+.welcome3 {
+	margin-top: 20%;
+}
+
+.button13 {
+
+margin-top: 10%;
+
+}
+
+.chefimg, .aboutimg  {
+	height: 300px;
+	width: 100%;
+	object-fit: contain;	
+	padding-bottom: 10%;
+
+}
+
+}
+
+
+
+
+
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+.card img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
 }
