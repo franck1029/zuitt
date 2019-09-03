@@ -1,7 +1,8 @@
 .top {
-	background-image: url("/home/tuittnight/Documents/franck-celestial/wd003/Capstone1/main file/assets/images/maxresdefault.jpg"	);
-    background-size: cover;
-    height: 100vh;
+	background: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(255, 99, 71, 0.2)),url("/home/tuittnight/Documents/franck-celestial/wd003/Capstone1/main file/assets/images/maxresdefault.jpg");
+
+	background-size: cover;
+	height: 100vh;
 	background-repeat: no-repeat;
 	
 }	
@@ -15,9 +16,9 @@
 
 
 .company {
-font-size: 20px;	
-text-decoration: italic;
-font-family: 'Playfair Display', serif;
+	font-size: 20px;	
+	text-decoration: italic;
+	font-family: 'Playfair Display', serif;
 
 }
 
@@ -32,16 +33,18 @@ font-family: 'Playfair Display', serif;
 	margin-top: 50px;
 	color: white;
 	font-family: 'Playfair Display', serif;
+	text-shadow: 2px 2px 5px black;
 }
 
 .welcome2 {
 	margin: 20px;
-text-align: center;
-margin-bottom: 5%;
-color: white;
-margin-left: 50px;
-margin-right:  50px;
-
+	text-align: center;
+	margin-bottom: 5%;
+	color: white;
+	margin-left: 50px;
+	margin-right:  50px;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px black;
 }
 
 .welcome3 {
@@ -63,12 +66,12 @@ margin-right:  50px;
 	margin-left: auto;
 	margin-top: 3%;
 
- 	
+
 } 
 
 .button13 {
 	text-align: center;
-padding-left:10%;
+	padding-left:10%;
 	padding-right:10%;
 }
 
@@ -93,9 +96,9 @@ padding-left:10%;
 
 
 hr {
- border-style: inset;
-  border-width: 1px;
-  width: 50%;
+	border-style: inset;
+	border-width: 1px;
+	width: 50%;
 }
 
 
@@ -122,50 +125,74 @@ hr {
 	text-align: center;
 }
 
+.yes {
+	opacity:100%;
+	font-weight: bolder;
+	color:#FF6347;
+
+}
+
 
 /*Home*/
 .home {
 	font-family: 'Playfair Display', serif;
-	padding-top: 10%;
-	margin-bottom: 2%;	
+	margin-bottom: 10%;	
 	color: #FF6347;
 }
 
+.carou {
+	padding-top: 10%;
+}
 
+.homea {
+	color:#FF6347;
+}
 
+.offer {
+	text-decoration: none !important;
+	text-decoration-color: none;
+}
 
+.offer:hover {
+	color: #E9967A;
+}
 
+.homeul {
+	margin-top: 10%;
+}
 
 /*Menu*/
 
 
 .Menu {
-padding-left: 10%;
-padding-right: 10%;
-background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-height: 100%;
-padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	height: 100%;
+	padding-bottom: 5%;
 }
 
 .card {
 	
-margin: 20px;
-border-style: none;
-border-radius: 20px;
-height: 80%;
-width: 80%;
+	margin: 20px;
+	border-style: none;
+	border-radius: 20px;
+	height: 80%;
+	width: 80%;
 }
 
-.button3 {
+.button3, .button4 {
 	background-color: #FF6347;
 	color: white;
+	border-style: none;
 }
+
 
 
 .card-img-top {
-	 border-radius: 5px 20px 5px;
-	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	 object-fit: contain;
+	border-radius: 5px 20px 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	object-fit: contain;
 }
 
 .menuh {
@@ -183,6 +210,14 @@ width: 80%;
 }
 
 
+h5 {
+	font-weight: bolder;
+}
+
+#menupic:hover {
+	background-color: #E9967A;
+}
+
 
 /*Meet our Chef*/
 
@@ -196,14 +231,14 @@ width: 80%;
 
 .Our-Team {
 
-padding-left: 10%;
-padding-right: 10%;
-background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	padding-bottom: 5%;
 }
 
 .Chefh2 {
-	padding-top: 10%;
+	padding-top: 5%;
 	font-family: 'Playfair Display', serif;
 	margin-bottom: 5%;
 }
@@ -228,7 +263,24 @@ padding-bottom: 10%;
 
 }
 
+.abouth {
+	text-align: center;
 
+
+}
+
+.ab {
+	margin-top: 5%;
+}
+
+
+.ab1 {
+	margin-bottom: 5%;
+}
+
+.try {
+
+}
 /*Contact us*/
 
 .Contact-us {
@@ -240,6 +292,9 @@ padding-bottom: 10%;
 iframe {
 	width: 100%;
 	display: block;
+	padding-top: 5%;
+	height: 100%;
+	padding-bottom: 10%;
 }
 
 
@@ -278,29 +333,54 @@ ul {
 
 i {
 	
-	height: 50px;
-	width: 50px;
+
 	margin: 10px;
 	color: white;
 }
+
+.social {
+	background-color:#CD5C5C;
+}
+
+textarea {
+	resize: none;
+}
+
+
+.store {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+
+.feedbt {
+	display: block;
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	font-weight: bolder;
+
+}
+
 
 
 
 /*Parallax*/
 
 .parallax { 
- 
-  background-image: url("https://images.pexels.com/photos/618775/pexels-photo-618775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+	background-image: url("https://images.pexels.com/photos/618775/pexels-photo-618775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 
 
-  height: 10rem; 
+	height: 10rem; 
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- margin-top: 10%
-background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 10%
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 
@@ -309,15 +389,15 @@ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 @media screen and (max-width: 575.98px) {
 
-.welcome3 {
-	margin-top: 20%;
-}
+	.welcome3 {
+		margin-top: 20%;
+	}
 
-.button13 {
+	.button13 {
 
-margin-top: 10%;
+		margin-top: 10%;
 
-}
+	}
 
 /*.chefimg, .aboutimg  {
 	height: 300px;
@@ -325,21 +405,21 @@ margin-top: 10%;
 	object-fit: contain;	
 	padding-bottom: 10%;
 
-}*/
+	}*/
 
 }
 
 
 input[type=checkbox] {
-  display: none;
+	display: none;
 }
 
 .card img {
-  transition: transform 0.25s ease;
-  cursor: zoom-in;
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
 }
 
 input[type=checkbox]:checked ~ label > img {
-  transform: scale(2);
-  cursor: zoom-out;
+	transform: scale(2);
+	cursor: zoom-out;
 }
