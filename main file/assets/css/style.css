@@ -235,6 +235,7 @@ h5 {
 	padding-right: 10%;
 	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 	padding-bottom: 5%;
+	/*background-image: url("https://images.pexels.com/photos/997719/pexels-photo-997719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");*/
 }
 
 .Chefh2 {
@@ -329,6 +330,7 @@ iframe {
 ul {
 	list-style: none;
 
+
 }
 
 i {
@@ -340,12 +342,24 @@ i {
 
 .social {
 	background-color:#CD5C5C;
+	height: 100%;
+	padding: 0;
+	margin:0;
+	width: 100%;
+	border: none;
+/*	position: relative;*/
 }
 
 textarea {
 	resize: none;
 }
 
+.socialmedia {
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+
+}
 
 .store {
 	padding-left: 10%;
@@ -363,6 +377,13 @@ textarea {
 
 }
 
+.footernote {
+	display: inline;
+	position: relative;
+	top: 40px;
+	left: 20px;
+	color: white;
+}
 
 
 
@@ -407,6 +428,19 @@ textarea {
 
 	}*/
 
+
+.footernote {
+	display: block;
+	position: relative;
+	top: 10px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
+.footernoteparent{
+	text-align: center;
 }
 
 
